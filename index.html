@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<!--required for all html sites-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Isaac Farr's First Webpage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--nav links within header container-->
+<header>
+    <h1>My First Webpage</h1>
+    <div>
+        <nav>
+            <ul>
+            
+            <a href="#intro">
+            </li>Intro</li></a>
+
+            <a href="#hobbies">
+            </li>My Interests</li></a>
+
+            <a href="#contactinfo">
+            </li>Contact Me</li></a>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!--first nav link-->
+    <article id="intro">
+        <h2>Who am I?</h2>
+        <!--&nbsp for spaces. thanks google :D-->
+        <p>&nbsp &nbsp &nbsp My name is Isaac Farr. I am from Maryville, TN, and I just finished 
+           my Associate of Science at PSCC. Now I am working through Thinkful's coding bootcamp
+           so that I can progress my career to the next level! </p>
+        
+        <!--img of me and my now 4 month old-->
+           <img src="images/meandella.jpg"
+        alt="me-and-ella" 
+        class="centerIMG resizeIMG" />
+    </article>
+
+    <!--lines to create visual sections. i found the code for this style online.-->
+<hr class="hr.style">
+
+    <article> 
+        <h2>What do I do?</h2>
+        <p>&nbsp &nbsp &nbsp Aside from my interest in coding, I am quite inarguably a nerd at heart.
+            This is pretty obviously reflected in how I spend my free time. I would say my 3 favorite 
+            hobbies in order are:
+        </p>
+        
+        <!--ordered list with a class that adds padding to indent the list-->
+        <ol id="hobbies" class="indent">
+            <li><p>Rubik's Cubes</p></li>
+            <li><p>Studying Calculus and Watching Videos on Unsolved Theorems</p></li>
+            <li><p>3-D Modeling and Printing</p></li>
+        </ol>
+
+        <!--subheaders with elaboration on my hobbies-->
+        <h3>Rubik's Cubes</h3>
+        <p>When I'm not at work or working on my coding bootcamp coursework, Rubik's cubes
+            and other twisty puzzles occupy A LOT of my time. I just started in January, but I now average
+            about 25 seconds on 3 x 3, and have a collection of over 80+ puzzles.</p>
+
+        <h3>Calculus</h3>
+        <p>One of the hardest things about deciding to do this bootcamp instead of going on
+            to a university, is that I am not in Calc 3 this semester. I absolutely love math, 
+            and I plan to learn as much as I possibly can.
+        </p>    
+
+        <h3>3-D Printing</h3>
+        <p>I learned how to do 3-D modeling with solidworks last year, and my brother surprised me with
+            my first 3-D printer. I immediately started pumping out simple objects, and before long I decided
+            to upgrade to an IDEX capable printer, and have produced some really cool stuff since then!</p>
+    </article>
+
+<hr class="hr.style">
+
+<!--hyperlinked images to my professional media and contact info-->
+    <article id="contactinfo">
+        <a href="https://www.linkedin.com/in/juniordevisaac/" target="_blank">
+            <img class="centerIMG resizeSML" src="images/linked.png">
+        </a>
+
+        <a href="https://github.com/iGFarr" target="_blank">
+            <img class="centerIMG resizeSML" src="images/github.jpg">
+        </a>
+
+        <a href="mailto:isaacgfarr@gmail.com?subject=Whats%20Up?"><img class="centerIMG resizeSML" 
+            src="images/email.jpg"></a>
+        
+    </article>
+</main>
+
+</body>
+
+</html>
